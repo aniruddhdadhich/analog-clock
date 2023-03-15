@@ -1,0 +1,50 @@
+body {
+  background: radial-gradient(rgb(241, 199, 223), rgb(218, 174, 246));
+}
+
+.container {
+  position: relative;
+  height: 40vw;
+  width: 40vw;
+  background: url(clock.png) no-repeat;
+  background-size: 100%;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background-color: rgb(165, 107, 198);
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 2.5%;
+  height: 32%;
+  top: 17.7%;
+  left: 48.5%;
+}
+#minute {
+  width: 2%;
+  height: 36%;
+  top: 14%;
+  left: 48.8%;
+}
+#second {
+  width: 1%;
+  height: 43%;
+  top: 6.6%;
+  left: 49.3%;
+}
+
+#mid {
+  position: absolute;
+  width: 7.2%;
+  height: 7.2%;
+  background-color: rgb(97, 58, 99);
+  border-radius: 50%;
+  top: 46.18%;
+  left: 46.2%;
+}
